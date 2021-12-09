@@ -1,0 +1,585 @@
+@media (max-width: 1270px){
+.content__grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 955px;
+    margin: 0 auto;
+    }
+}
+@media (max-width: 371px){
+    .content__grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+        }
+    }
+@media (max-width: 992px){
+    body{
+        background: rgb(133, 133, 238);
+    }
+    .header-bar__wrap{
+        max-width: 750px;
+        height: 32px;
+    }
+    .header-bar__text{
+        font-size: 14px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__content{
+        max-width: 750px;
+        min-height: 56px;
+    }
+    .header-content__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        top: 18px;
+        left: 16px;
+        border: none;
+        background: transparent;
+    }
+    .header-content__burger span{
+        display: block;
+        position: absolute;
+        background-color: #373873;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .header-content__burger::before,
+    .header-content__burger::after{
+        content: "";
+        background-color: #373873;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0px;
+    }
+    .header-content__burger::before{
+        top: 0px;
+    }
+    .header-content__burger::after{
+        bottom: 0px;
+    }
+    .header-content__burger:focus +.header-content__pagination_mobile{
+        display: block;
+        position: absolute;
+        background-color: #373873;
+    }
+    .header-content__pagination{
+        display: none;
+    }
+    .header-content__pagination_mobile{
+        display: none;
+    }
+    .header-pagination__text{
+        color: white;
+    }
+    .header-content__logo{
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        margin-left: -45px;
+        width: 90px;
+        height: 40px;
+    }
+    .header-content__user{
+        position: absolute;
+        height: 100%;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-user__avatar{
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 16px;
+    }
+    .header-content__cart{
+        margin-right: 16px;
+    }
+    .header-content__cart-img{
+        width: 20px;
+        height: 20px;
+    }
+    .header-user__button{
+        display: none;
+    }
+    .content__title{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .content__subtitle{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #373873;
+    }
+    .content__promo{
+        max-width: 750px;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .promo__benefits{
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 20px;
+        order: 2;
+        position: relative;
+    }
+    .benefits__title{
+        max-width: 155px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__subtitle{
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__price{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .button{
+        width: 169px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-right: 10px;
+        margin-left: 3px;
+    }
+    .promo__preview{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 750px;
+    }
+    .preview__product{
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .preview__sticker{
+        left: 10%;
+        top: 100px;
+    }
+    .row-promise-box{
+        display: none;
+        position: relative;
+        max-width: 750px;
+        height: 112px;
+        margin-bottom: 30px;
+    }
+    .row-promise-box_mobile{
+        display: block;
+    }
+    .row-promise{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        padding-top: 50px;
+        width: 750px;
+        height: 72px;
+        margin: 10px auto;
+        background-color: #ECEFFA;
+    }
+    .row-promise__title{
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .row-promise__section{
+        padding-top: 40px;
+    }
+    .content__grid{
+        display: flex;
+        flex-wrap:wrap;
+        width:100%;
+        max-width: 595px;
+        margin: 0 auto;
+    }
+    .box__wrap-img{
+        width: 176px;
+        height: 176px;
+    }
+    .box__benefits{
+        width: 176px;
+        height: 224px;
+    }
+    .box__sticker{
+        display: none;
+    }
+    .commercial{
+        display: block;
+        width: 100%;
+        max-width: 750x;
+        margin: 0 auto;
+    }
+    .commercial__day{
+        margin: 0 auto;
+        background-image:url(img/commercial-white.png);
+    }
+    .commercial__day_black{
+        background-image:url(img/commercial-black.png);
+    }
+    .content__banner{
+        height: 500px;
+    }
+    .banner__wrap{
+        flex-direction: column;
+        max-width: 750px;
+    }
+    .baner__benefits{
+        z-index: 2;
+        order: 2;
+    }
+    .baner__title{
+        text-align: center;
+    }
+    .baner__promo{
+        text-align: center;
+    }
+    .baner__desc{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .baner__img{
+        width: 750px;
+        height: 100%;
+    }
+    .baner__title{
+        font-family: "Canela-light";
+        font-size: 48px;
+        line-height: 60px;
+        color: #373873;
+    }
+}
+@media (max-width: 767px){
+    body{
+        background: rgb(214, 126, 236);
+    }
+    .header-bar__wrap{
+        max-width: none;
+        height: 28px;
+        justify-content: center;
+    }
+    .header-bar__text{
+        display: none;
+    }
+    .header-bar__text_mobile{
+        font-size: 14px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__content{
+        max-width: none;
+        min-height: 56px;
+    }
+    .header-user__avatar{
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 16px;
+    }
+    .content__title{
+        max-width: none;
+        padding-left: 20px;
+        margin-top: 10px;
+        padding-right: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .content__subtitle{
+        max-width: 370px;
+        padding-left: 20px;
+        padding-right: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #373873;
+    }
+    .content__promo{
+        max-width: 375px;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .promo__preview{
+        position: relative;
+        background-image:url(img/fon.png) ;
+        width: 375px;
+        height: 240px;
+    }
+    .preview__product{
+        width: 100%;
+        height: 100%;
+    }
+    .preview__sticker{
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        left: 10%;
+        top: 100px;
+    }
+    .promo__benefits{
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0px;
+        order: 2;
+        position: relative;
+    }
+    .content__grid{
+        display: flex;
+        flex-wrap:wrap;
+        width:100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .commercial{
+        display: block;
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .commercial__day{
+        margin: 0 auto;
+        background-image:url(img/commercial-white.png);
+        width: 100%;
+    }
+    .day__wrap {
+        margin: 0 -5px;
+    }
+    .banner__wrap {
+        flex-direction: column;
+        max-width: 375px;
+    }
+    .baner__img {
+        width: 475px;
+        height: 100%;
+    }
+    .baner__title {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .baner__promo {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px 0 15px 0;
+    }
+    .baner__desc {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .row-promise-box {
+        position: relative;
+        max-width: 360px;
+        height: 112px;
+        margin-bottom: 30px;
+    }
+    .row-promise{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        padding-top: 50px;
+        width: 360px;
+        height: 72px;
+        margin: 10px auto;
+        background-color: #ECEFFA;
+    }
+    .row-promise__icon{
+        width: 36px;
+        height: 36px;
+        margin: 0 4px;
+    }
+    .row-promise__section_mobile{
+        display: none;
+    }
+    .row-promise__text{
+        font-family: "Avenir-light(300)";
+        font-size: 12px;
+        line-height: 16px;
+        color: #373873;
+    }
+    .row-promise__text_mobile{
+        width: 38px;
+    }
+    .baner-desc__delivery-text {
+        margin-bottom: 10px;
+    }
+    .grid__box {
+        border: 1px solid #F6F6F6;
+        margin-bottom: 50px;
+        margin: 0 4px;
+    }
+    .commercial__day {
+        margin: 0 auto;
+        background-image: url(img/commercial-white.png);
+        width: 100%;
+        max-width: 360px;
+        height: 350px;
+    }
+    .commercial__day_black{
+        background-image:url(img/commercial-black.png);
+    }
+    .day__img {
+        margin: 0 -95px;
+        margin-top: 70px;
+        height: 80%;
+    }
+    .content__banner {
+        height: 370px;
+    }
+
+    .footer{
+        width: 100%;
+        background-color: #F6F6F6;    
+    }
+    .footer__wrap{
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        height: 660px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .footer-wrap__aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .footer-wrap__logo{
+        margin: 68px 0 39px 0;
+        margin-left: 15px;
+        width: 100px;
+    }
+    .footer__text{
+        font-family: "Avenir-light(400)";
+        font-size: 18px;
+        line-height: 25px;
+        color: #373873;
+        margin-bottom: 19px;
+        margin-left: 15px;
+    }
+    .footer-wrap__icon{
+        display: flex;
+        justify-content: space-between;
+        width: 315px;
+        margin-left: 15px;
+    }
+    .footer__icon{
+        text-decoration: none;
+    }
+    .footer__from{
+        margin: 22px 0 46px 0;
+    }
+    .footer-from__email{
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        font-size: 18px;
+        line-height: 25px;
+        color: #373873;
+        opacity: 0.5;
+        padding-left: 20px;
+        margin-left: 15px;
+    }
+    .footer-from__subscribe{
+        width: 190px;
+    }
+    .footer-from__subscribe {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .footer-wrap__more{
+        margin: 0 auto;
+        margin-bottom: -40px;
+        display: flex;
+        align-items:center;
+    }
+    .more__wrap{
+        display:flex;
+        flex-wrap:wrap;
+        width: 241px;
+        height: 270px;
+    }
+    .footer-wrap__span{
+        font-family: "Avenir-light(400)";
+        flex: 0 1 50%;
+        font-size: 14px;
+        line-height: 20px;
+        color: #373873;
+        text-decoration: none;
+    }
+    .footer__line{
+        display: none;
+        width: 100%;
+        border: 1px solid #373873;;
+    }
+    .footer__line_mobile{
+        display: block;
+    }
+    .footer__bar{
+        display: flex;
+        align-items: center;
+        max-width: 375px;
+        height: 66px;
+        margin-left: 80px;
+    }
+    .footer-bar__text{
+        font-family: "Avenir-light(400)";
+        font-size: 14px;
+        line-height: 19px;
+        color: #373873;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
+

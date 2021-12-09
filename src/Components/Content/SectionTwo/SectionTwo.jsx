@@ -1,0 +1,39 @@
+import React from 'react';
+import icon_1 from '../../../Static/Img/row-promise__icon_1.svg'
+import icon_2 from '../../../Static/Img/row-promise__icon_2.svg'
+import icon_3 from '../../../Static/Img/row-promise__icon_3.svg'
+import icon_4 from '../../../Static/Img/row-promise__icon_4.svg'
+import icon_5 from '../../../Static/Img/row-promise__icon_5.svg'
+
+import s from './SectionTwo.module.css';
+
+const SectionTwo = () => {
+    return <div className={s.sectionTwo}>
+        <div className={s.rowPromise__box}>
+            <div className={s.rowPromise}>
+                <p className={s.title}>Our Promise</p>
+                <div className={s.section}>
+                    <img className={s.icon} src={icon_1} alt="icon"/>
+                    <p className={s.text}>100%<br/>Clean</p>
+                </div>
+                <div className={s.section}>
+                    <img className={s.icon} src={icon_2} alt="icon"/>
+                    <p className={s.text}>Cruelty<br/>Free</p>
+                </div>
+                <div className={s.section}>
+                    <img className={s.icon} src={icon_3} alt="icon"/>
+                    <p className={s.text}>Free of<br/>1400+ toxins</p>
+                </div>
+                <div className={s.section}>
+                    <img className={s.icon} src={icon_4} alt="icon"/>
+                    <p className={s.text}>Swiss<br/>Made</p>
+                </div>
+                <div className={s.section}>
+                    <img className={s.icon} src={icon_5} alt="icon"/>
+                    <p className={s.text}>Environmentally<br/>Friendly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+        export default SectionTwo;

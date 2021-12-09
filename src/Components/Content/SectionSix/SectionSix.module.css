@@ -1,0 +1,50 @@
+.banner{
+    width: 100%;
+    background-color: #FDEFAB;
+    height: 340px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.benefits{
+    z-index: 2;
+}
+.title{
+    font-family: "Canela-light";
+    font-size: 48px;
+    line-height: 60px;
+    color: #373873;
+}
+.promo{
+    font-family: "Avenir-medium(500)";
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+    margin: 9px 0 18px 0;
+}
+.desc{
+    display: flex;
+}
+.icon__text{
+    font-family: "Avenir-light(400)";
+    font-size: 16px;
+    line-height: 20px;
+    color: #373873;
+}
+.icon__text_Weight800{
+    font-family: "Avenir-heavy(900)";
+}
+.icon{
+    margin: 0 5px;
+}
+.baner__img{
+    width: 928px;
+    height: 340px;
+    margin-left: -100px;
+    z-index: 1;
+}

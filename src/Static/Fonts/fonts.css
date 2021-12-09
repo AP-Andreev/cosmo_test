@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Avenir-thin(100)"; 
+    src: url('../Fonts/Avenir/avenirnextcyr-thin.ttf') format("truetype");
+    /*src: url('./Static/../Fonts/Avenir/avenirnextcyr-thin.ttf') format("truetype");*/
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-thinitalic(100)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-thinitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-ultralight(200)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-ultralight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-ultralightitalic(200)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-ultralightit.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-light(300)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-light(300)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-light.svg") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-light(300)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-light.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-lightitalic(300)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-lightitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-light(400)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr.svg") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-light(400)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-medium(500)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-medium(500)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-medium.svg") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-medium(500)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-medium.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-mediumitalic(500)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-mediumitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-demi(600)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-demi.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-demiitalic(600)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-demiitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-bold(700)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-bold(700)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-bold.svg") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-bold(700)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-bold.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-bolditalic(700)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-bolditalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Avenir-heavy(900)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-heavy(900)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-heavy.svg") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-heavy(900)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-heavy.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Avenir-heavyitalic(900)"; 
+    src: url("../Fonts/Avenir/avenirnextcyr-heavyitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+
+
+
+@font-face {
+    font-family: "Canela-light"; 
+    src: url("../Fonts/Canela/Canela-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Canela-light"; 
+    src: url("../Fonts/Canela/Canela-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Canela-lightitalic"; 
+    src: url("../Fonts/Canela/Canela-LightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Canela-lightitalic"; 
+    src: url("../Fonts/Canela/Canela-LightItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "Canela-lightitalic"; 
+    src: url("../Fonts/Canela/Canela-LightItalic.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }

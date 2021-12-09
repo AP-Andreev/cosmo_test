@@ -1,0 +1,126 @@
+.title{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-family: "Canela-light";
+    font-size: 36px;
+    line-height: 60px;
+    color: #373873;
+}
+.title_italic{
+    font-family: "Canela-lightitalic";
+    font-style: italic;
+}
+.subtitle{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-family: "Avenir-light(300)";
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+}
+.grid__wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    width:100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.grid__box{
+    border: 1px solid #F6F6F6;
+    margin-bottom: 50px;
+    margin: 0 10px;
+}
+.box__wrapImg{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 296px;
+    height: 296px;
+    background-image:url(../../../Static/Img/fon.png);
+}
+.box__img{
+    width: 100%;
+}
+.box__sticker{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 72px;
+    max-height: 100px;
+}
+.benefits{
+    width: 296px;
+    height: 248px;
+}
+.benefits__title{
+    font-family: "Avenir-medium(500)";
+    font-size: 22px;
+    line-height: 32px;
+    color: #373873;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__subtitle{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 24px;
+    color: #373873;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__subtitle_Weight300{
+    font-family: "Avenir-light(300)";
+    color: rgba(55, 56, 115, 0.8);
+}
+.benefits__price{
+    font-family: "Avenir-medium(500)";
+    font-size: 18px;
+    line-height: 28px;
+    color: #373873;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__grade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-bottom: 12px;
+}
+.grade__points{
+    width: 76.8px;
+    height: 12px;
+    margin-left: 15px;
+
+}
+.grade__prestige{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 28px;
+    color: #373873;
+}
+.button{
+    width: 256px;
+    height: 48px;
+    background: #373873;
+    border-radius: 8px;
+    font-family: "Avenir-medium(500)";
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-left: 20px;
+}

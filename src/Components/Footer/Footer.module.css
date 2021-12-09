@@ -1,0 +1,100 @@
+
+
+.footer{
+    width: 100%;
+}
+.wrap{
+    display: flex;
+    max-width: 1440px;
+    height: 445px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+}
+.logo{
+    margin: 68px 0 39px 0;
+    margin-left: 15px;
+}
+.text{
+    font-family: "Avenir-light(400)";
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+    margin-bottom: 19px;
+    margin-left: 15px;
+}
+.wrap__icon{
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    margin-left: 15px;
+}
+.icon{
+    text-decoration: none;
+}
+.from{
+    margin: 22px 0 46px 0;
+}
+.email{
+    width: 357px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+    opacity: 0.5;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+.subscribe{
+    width: 190px;
+    height: 50px;
+    border-radius: 60px;
+    background: #373873;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.more{
+    display: flex;
+    align-items:center;
+}
+.more__wrap{
+    display:flex;
+    flex-wrap:wrap;
+    width: 241px;
+    height: 270px;
+}
+.span{
+    font-family: "Avenir-light(400)";
+    flex: 0 1 50%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373873;
+    text-decoration: none;
+}
+.footer__line{
+    width: 100%;
+    border: 1px solid #373873;;
+}
+.footer__lineMobile{
+    display: none;
+}
+.footer__bar{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    height: 66px;
+    margin-left: 80px;
+}
+.bar__text{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 19px;
+    color: #373873;
+    text-decoration: none;
+    margin-right: 15px;
+}
