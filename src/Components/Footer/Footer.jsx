@@ -52,9 +52,9 @@ const Footer = () => {
                         <a className={s.span} href="#">FAQs</a>
                     </div>
                 </div>
-                <div className={s.footer__lineMobile}></div>
+                <div className={s.lineMobile}></div>
             </div>
-            <div className={s.footer__line}></div>
+            <div className={s.line}></div>
             <div className={s.footer__bar}>
                 <a className={s.bar__text} href="#">Privacy Policy</a>
                 <a className={s.bar__text} href="#">Terms of Service</a>
