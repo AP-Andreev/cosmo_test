@@ -43,8 +43,75 @@
     margin: 0 5px;
 }
 .baner__img{
-    width: 928px;
+    max-width: 928px;
     height: 340px;
     margin-left: -100px;
     z-index: 1;
+}
+
+@media (max-width: 992px){
+    .banner{
+        height: 500px;
+    }
+    .wrap{
+        flex-direction: column;
+        max-width: 750px;
+    }
+    .benefits{
+        z-index: 2;
+        order: 2;
+    }
+    .title{
+        font-family: "Canela-light";
+        font-size: 48px;
+        line-height: 60px;
+        color: #373873;
+        text-align: center;
+    }
+    .promo{
+        text-align: center;
+    }
+    .desc{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .banner__img{
+        max-width: 750px;
+        height: 100%;
+    }
+}
+@media (max-width: 767px){
+    .banner{
+        height: 370px;
+    }
+    .wrap{
+        flex-direction: column;
+        max-width: 375px;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .promo{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px 0 15px 0;
+    }
+    .desc{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .icon__text{
+        margin-bottom: 10px;
+    }
+    .banner__img{
+        max-width: 475px;
+        height: 100%;
+    }
 }

@@ -1,13 +1,14 @@
-.sectionTwo{
+.row{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.rowPromise{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     background-color: #ECEFFA;
 }
-.rowPromise__box_mobile{
-    display: none;
-}
-.rowPromise{
+.box{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,8 +16,6 @@
     max-width: 860px;
     height: 72px;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 80px;
 }
 .title{
     font-family: "Avenir-medium(500)";
@@ -38,4 +37,10 @@
     line-height: 19px;
     color: #373873;
     margin: 0 4px;
+}
+
+@media (max-width: 992px){
+    .row{
+        display: none;
+    }
 }

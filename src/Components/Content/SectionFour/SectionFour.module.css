@@ -124,3 +124,104 @@
     color: white;
     margin-left: 20px;
 }
+
+
+@media (max-width: 1270px){
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 955px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 992px){
+    .title{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 595px;
+    }
+    .box__wrapImg{
+        width: 176px;
+        height: 176px;
+    }
+    .box__sticker{
+        display: none;
+    }
+    .benefits{
+        width: 176px;
+        height: 224px;
+    }
+    .benefits__title{
+        max-width: 155px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__subtitle{
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__price{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .button{
+        width: 169px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-right: 10px;
+        margin-left: 3px;
+    }
+}
+@media (max-width: 767px){
+    .title{
+        max-width: 375px;
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+    .grid__box{
+        margin: 0 4px;
+    }
+    .box__wrapImg{
+        width: 176px;
+        height: 176px;
+    }
+    .benefits{
+        width: 176px;
+        height: 224px;
+    }
+    .benefits__title{
+        max-width: 155px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .benefits__subtitle{
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .benefits__price{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+}

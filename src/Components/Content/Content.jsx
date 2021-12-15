@@ -1,10 +1,11 @@
 import React from 'react';
-import SectionOne from './SectionOne/SectionOne'
-import SectionTwo from './SectionTwo/SectionTwo'
-import SectionThree from './SectionThree/SectionThree'
-import SectionFour from './SectionFour/SectionFour'
-import SectionFive from './SectionFive/SectionFive'
+import SectionOne from './SectionOne/SectionOne';
+import SectionTwo from './SectionTwo/SectionTwo';
+import SectionThree from './SectionThree/SectionThree';
+import SectionFour from './SectionFour/SectionFour';
+import SectionFive from './SectionFive/SectionFive';
 import SectionSix from './SectionSix/SectionSix';
+import SectionTwoMobile from './SectionTwoMobile/SectionTwoMobile';
 
 
 const Content = () => {
@@ -14,6 +15,7 @@ const Content = () => {
         <SectionOne />
         <SectionTwo />
         <SectionThree />
+        <SectionTwoMobile />
         <SectionFour />
         <SectionFive />
         <SectionSix />

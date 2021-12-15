@@ -37,7 +37,7 @@ const Footer = () => {
                         <input className={s.subscribe} type="submit" name="submit" value="Subscribe"/>
                     </form>
                 </div>
-                <div className={s.line_mobile}></div>
+                <div className={s.lineMobile}></div>
                 <div className={s.more}>
                     <div className={s.more__wrap}>
                         <a className={s.span} href="#">Skin Assessment</a>

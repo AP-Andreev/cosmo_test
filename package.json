@@ -2,7 +2,7 @@
   "name": "cosmo_test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AP-Andreev.github.io/main",
+  "homepage": "https://ap-andreev.github.io/cosmo_test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",

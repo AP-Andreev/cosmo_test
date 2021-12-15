@@ -62,3 +62,47 @@
 .commercial__day_black{
     background-image:url(../../../Static/Img/commercial-black.png);
 }
+
+@media (max-width: 992px){
+    .title{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .commercial{
+        display: block;
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .commercial__day{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-white.png);
+    }
+    .commercial__day_black{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-black.png);
+    }
+}
+@media (max-width: 767px){
+    .commercial__day{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-white.png);
+        width: 100%;
+        max-width: 360px;
+        height: 350px;
+    }
+    .day__wrap{
+        margin: 0 -5px;
+    }
+    .day__img{
+        margin: 0 -95px;
+    }
+    .commercial__day_black{
+        background-image: url(../../../Static/Img/commercial-black.png);
+    }
+    .day__text{
+        font-size: 10px;
+    }
+}
