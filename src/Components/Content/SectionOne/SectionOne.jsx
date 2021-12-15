@@ -6,7 +6,7 @@ import s from './SectionOne.module.css';
 
 const SectionOne = () => {
     return <div className={s.sectionOne}>
-        <h2 className={s.title}><span className={s.title_italic}>Personalized</span> Routine</h2>
+        <h2 className={s.title}><span className={s.title_italic}>Здесь был мастер</span> Routine</h2>
         <h3 className={s.subtitle}>An effective routine designed for your skin + lifestyle + environment</h3>
         <div className={s.promo}>
             <div className={s.benefits}>
