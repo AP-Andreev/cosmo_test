@@ -1,34 +1,36 @@
 .banner{
     width: 100%;
     background-color: #FDEFAB;
-    height: 340px;
 }
 .wrap{
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 340px;
     max-width: 1440px;
     margin: 0 auto;
+    background: url('../../../Static/Img/banner.png') right top no-repeat;
 }
 .benefits{
-    z-index: 2;
+    width: 640px;
 }
 .title{
     font-family: "Canela-light";
     font-size: 48px;
     line-height: 60px;
     color: #373873;
+    margin-left: 80px;
 }
 .promo{
     font-family: "Avenir-medium(500)";
     font-size: 18px;
     line-height: 25px;
     color: #373873;
-    margin: 9px 0 18px 0;
+    margin: 8px 0 15px 80px;
 }
 .desc{
     display: flex;
+    margin-left: 80px;
 }
 .icon__text{
     font-family: "Avenir-light(400)";
@@ -41,6 +43,7 @@
 }
 .icon{
     margin: 0 5px;
+    margin-top: -3px;
 }
 .baner__img{
     max-width: 928px;
@@ -54,32 +57,30 @@
         height: 500px;
     }
     .wrap{
-        flex-direction: column;
         max-width: 750px;
-    }
-    .benefits{
-        z-index: 2;
-        order: 2;
+        justify-content: center;
+        background: url('../../../Static/Img/banner.png') right 80px top no-repeat;
+        background-size: 80%;
     }
     .title{
         font-family: "Canela-light";
-        font-size: 48px;
-        line-height: 60px;
+        font-size: 28px;
+        line-height: 42px;
         color: #373873;
         text-align: center;
+        margin-top: 300px;
+        margin-left: 0px;
     }
     .promo{
         text-align: center;
+        margin: 8px 0 15px 0px;
     }
     .desc{
         display: flex;
+        justify-content: center;
         width: 100%;
         max-width: 500px;
         margin: 0 auto;
-    }
-    .banner__img{
-        max-width: 750px;
-        height: 100%;
     }
 }
 @media (max-width: 767px){
@@ -89,10 +90,8 @@
     .wrap{
         flex-direction: column;
         max-width: 375px;
-    }
-    .title{
-        font-size: 28px;
-        line-height: 42px;
+        background: url('../../../Static/Img/banner.png') right 0px top no-repeat;
+        background-size: 100%;
     }
     .promo{
         font-size: 16px;
@@ -107,11 +106,14 @@
         max-width: 260px;
         margin: 0 auto;
     }
-    .icon__text{
-        margin-bottom: 10px;
+    .title{
+        margin-top: 170px;
+        margin-left: 0px;
     }
-    .banner__img{
-        max-width: 475px;
-        height: 100%;
+    .icon__text{
+        font-family: "Avenir-light(400)";
+        font-size: 16px;
+        line-height: 25px;
+        color: #373873;
     }
 }

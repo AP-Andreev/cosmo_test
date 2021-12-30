@@ -50,6 +50,7 @@ const Header = () => {
                 <button className={s.cart}> <img className={s.cart__img} src={cart} alt="cart"/> </button>
             </div>
         </div>
+        <div className={s.line}></div>
     </header>
 )}
 

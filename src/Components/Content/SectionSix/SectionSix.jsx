@@ -24,7 +24,6 @@ const SectionSix = () => {
                         <p className={s.icon__text}>Swiss-Made</p>
                     </div>
                 </div>
-                <img className={s.banner__img} src={banner__img} alt="banner__img"/>
             </div>
         </div>
     </div>

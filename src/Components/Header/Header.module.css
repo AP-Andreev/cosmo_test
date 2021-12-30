@@ -120,11 +120,11 @@
     width: 24px;
     height: 24px;
 }
-
+.line{
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+}
 @media (max-width: 992px){
-    body{
-        background: rgb(133, 133, 238);
-    }
     .bar__wrap{
         max-width: 750px;
         height: 32px;
@@ -225,9 +225,6 @@
     }
 }
 @media (max-width: 767px){
-    body{
-        background: rgb(214, 126, 236);
-    }
     .bar__wrap{
         max-width: none;
         height: 28px;

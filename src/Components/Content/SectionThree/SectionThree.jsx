@@ -9,7 +9,7 @@ import s from './SectionThree.module.css';
 
 const SectionThree = () => {
     return <div className={s.sectionThree}>
-        <h2 className={s.title}> <samp className={s.title_italic}>Personalized</samp>Singles</h2>
+        <h2 className={s.title}> <samp className={s.title_italic}>Personalized</samp> Singles</h2>
         <h3 className={s.subtitle}>Get singles from your personalized day and night set</h3>
         <div className={s.grid__wrap}>
             <div className={s.grid}>

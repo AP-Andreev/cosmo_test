@@ -35,6 +35,7 @@ const Footer = () => {
                                 value="Enter email id here" required/>
                         </label>
                         <input className={s.subscribe} type="submit" name="submit" value="Subscribe"/>
+                        <input className={`${s.subscribe} ${s.mobile}`} type="submit" name="submit" value=""/>
                     </form>
                 </div>
                 <div className={s.lineMobile}></div>
