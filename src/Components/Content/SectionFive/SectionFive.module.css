@@ -1,0 +1,111 @@
+.title{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-family: "Canela-light";
+    font-size: 36px;
+    line-height: 60px;
+    color: #373873;
+}
+.commercial{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.commercial__day{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 624px;
+    height: 350px;
+    background-image:url(../../../Static/Img/commercial-white.png);
+    background-repeat: no-repeat;
+}
+.day__title{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Avenir-medium(500)";
+    font-size: 22px;
+    line-height: 28px;
+    color: #373873;
+}
+.day__title_white{
+    color: #ffffff;
+}
+.day__wrap{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-self:flex-end;
+    overflow: hidden;
+}
+.day__img{
+    margin: 0 -90px;
+    margin-top: 70px;
+    height: 80%;
+}
+.day__text{
+    font-family: "Avenir-medium(500)";
+    font-size: 12px;
+    line-height: 28px;
+    color: rgba(55, 56, 115, 0.8);
+    text-align: center;
+    margin-top: -20px;
+}
+.commercial__day_black{
+    background-image:url(../../../Static/Img/commercial-black.png);
+}
+
+@media (max-width: 992px){
+    .title{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .commercial{
+        display: block;
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .commercial__day{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-white.png);
+    }
+    .commercial__day_black{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-black.png);
+    }
+}
+@media (max-width: 767px){
+    .commercial__day{
+        margin: 0 auto;
+        background-image: url(../../../Static/Img/commercial-white.png);
+        width: 100%;
+        max-width: 360px;
+        height: 350px;
+        overflow: hidden;
+    }
+    .day__wrap{
+        margin: 0 -5px;
+    }
+    .day__img{
+        margin: 0 -95px;
+    }
+    .commercial__day_black{
+        background-image: url(../../../Static/Img/commercial-black.png);
+    }
+    .day__text{
+        font-size: 10px;
+    }
+}

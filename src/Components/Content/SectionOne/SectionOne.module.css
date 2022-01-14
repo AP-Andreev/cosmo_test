@@ -1,0 +1,283 @@
+.sectionOne{
+    margin-top: 170px;
+}
+.title{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-family: "Canela-light";
+    font-size: 36px;
+    line-height: 60px;
+    color: #373873;
+}
+.title_italic{
+    font-family: "Canela-lightitalic";
+}
+.subtitle{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-family: "Avenir-light(300)";
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+}
+.promo{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    height: 376px;
+    box-shadow: 0 0 8px 4px rgba(224, 224, 224, 0.25)
+}
+.benefits{
+    width: 360px;
+    height: 376px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.benefits__title{
+    font-family: "Avenir-medium(500)";
+    font-size: 22px;
+    line-height: 32px;
+    color: #373873;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__subtitle{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 24px;
+    color: #373873;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__subtitle_Weight500{
+    font-family: "Avenir-medium(500)";
+}
+.benefits__subtitle_Weight300{
+    font-family: "Avenir-light(300)";
+    color: rgba(55, 56, 115, 0.8);
+}
+.benefits__price{
+    font-family: "Avenir-medium(500)";
+    font-size: 18px;
+    line-height: 28px;
+    color: #373873;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.benefits__price_line-through{
+    text-decoration: line-through;
+    color: rgba(55, 56, 115, 0.5);
+}
+.benefits__grade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-bottom: 12px;
+}
+.grade__points{
+    width: 76.8px;
+    height: 12px;
+    margin-left: 15px;
+
+}
+.grade__prestige{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 28px;
+    color: #373873;
+}
+.button{
+    width: 256px;
+    height: 48px;
+    background: #373873;
+    border-radius: 8px;
+    border: none;
+    font-family: "Avenir-medium(500)";
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-left: 20px;
+}
+.button_whiteTem{
+    background-color: white;
+    border: 1px solid #373873;
+    color: #373873;
+    margin-top: 8px;
+}
+.preview{
+    position: relative;
+    background-image:url(../../../Static/Img/fon.png);
+    width: 920px;
+    height: 376px;
+}
+.preview__product{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 872px;
+    height: 376px;
+}
+.preview__sticker{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 15%;
+    top: 150px;
+}
+.preview__bestseller{
+    width: 80px;
+    height: 24px;
+    background-color: #DFE376;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: "Avenir-medium(500)";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #373873;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+@media (max-width: 992px){
+    .title{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .subtitle{
+        max-width: 750px;
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #373873;
+    }
+    .promo{
+        max-width: 750px;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .benefits{
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 10px;
+        order: 2;
+        position: relative;
+    }
+    .benefits__title{
+        max-width: 155px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__subtitle{
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+    .benefits__price{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    }
+    .button{
+        width: 169px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-right: 10px;
+        margin-left: 3px;
+    }
+    .preview{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 750px;
+    }
+    .preview__product{
+        width: 100%;
+        height: 100%;
+        left: 40px;
+    }
+    .preview__sticker{
+        left: 10%;
+        top: 140px;
+    }
+}
+@media (max-width: 767px){
+    .title{
+        max-width: 375px;
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    .subtitle{
+        max-width: 370px;
+        padding-left: 20px;
+        padding-right: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #373873;
+    }
+    .promo{
+        max-width: 375px;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .preview{
+        position: relative;
+        background-image:url(../../../Static/Img/fon.png) ;
+        height: 220px;
+        overflow: hidden;
+    }
+    .preview__product{
+        width: 130%;
+        height: auto;
+        left: -40px;
+        top: 10px;
+    }
+    .preview__sticker{
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        left: 5%;
+        top: 80px;
+    }
+    .benefits{
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0px;
+        order: 2;
+        position: relative;
+    }
+    .benefits__price{
+        right: 15px;
+    }
+    .button{
+        margin-left: 8px;
+    }
+}

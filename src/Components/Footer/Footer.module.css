@@ -1,0 +1,234 @@
+
+
+.footer{
+    width: 100%;
+    background-color: #F6F6F6;
+}
+.wrap{
+    display: flex;
+    max-width: 1440px;
+    height: 445px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.logo{
+    margin: 68px 0 39px 80px;
+}
+.text{
+    font-family: "Avenir-light(400)";
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+    margin-bottom: 19px;
+    margin-left: 80px;
+}
+.wrap__icon{
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    margin-left: 80px;
+}
+.icon{
+    text-decoration: none;
+}
+.from{
+    margin: 22px 0 46px 0;
+}
+.email{
+    width: 357px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #373873;
+    opacity: 0.5;
+    padding-left: 20px;
+    margin-left: 80px;
+}
+.subscribe{
+    width: 190px;
+    height: 50px;
+    border-radius: 60px;
+    background: #373873;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+}
+.mobile{
+    display: none;
+    width: 190px;
+    height: 50px;
+    border-radius: 60px;
+    background: #373873;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    background-image: url(../../Static/Img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.more{
+    display: flex;
+    align-items:center;
+}
+.more__wrap{
+    display:flex;
+    flex-wrap:wrap;
+    width: 241px;
+    height: 270px;
+}
+.span{
+    font-family: "Avenir-light(400)";
+    flex: 0 1 50%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373873;
+    text-decoration: none;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid #373873;
+}
+.lineMobile{
+    display: none;
+    width: 100%;
+    border-bottom: 1px solid #373873;
+}
+.footer__bar{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 66px;
+    padding-left: 30px;
+}
+.bar__text{
+    font-family: "Avenir-light(400)";
+    font-size: 14px;
+    line-height: 19px;
+    color: #373873;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+@media (max-width: 767px){
+
+    .footer{
+        width: 100%;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        height: 660px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .logo{
+        margin: 68px 0 39px 0;
+        margin-left: 0px;
+        width: 100px;
+    }
+    .text{
+        font-family: "Avenir-light(400)";
+        font-size: 18px;
+        line-height: 25px;
+        color: #373873;
+        margin-bottom: 19px;
+        margin-left: 0px;
+    }
+    .wrap__icon{
+        display: flex;
+        justify-content: space-between;
+        width: 315px;
+        margin-left: 0px;
+    }
+    .icon{
+        text-decoration: none;
+    }
+    .from{
+        display: flex;
+        margin: 22px 0 46px 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .email{
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        font-size: 18px;
+        line-height: 25px;
+        color: #373873;
+        opacity: 0.5;
+        padding-left: 20px;
+        margin-left: 0px;
+    }
+    .subscribe{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+    .more{
+        margin: 0 auto;
+        margin-bottom: -40px;
+        margin-left: 100px;
+        display: flex;
+        align-items:center;
+    }
+    .more__wrap{
+        display:flex;
+        flex-wrap:wrap;
+        width: 241px;
+        height: 270px;
+    }
+    .span{
+        font-family: "Avenir-light(400)";
+        flex: 0 1 50%;
+        font-size: 14px;
+        line-height: 20px;
+        color: #373873;
+        text-decoration: none;
+    }
+    .line{
+        display: none;
+    }
+    .lineMobile{
+        display: block;
+    }
+    .footer__bar{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        max-width: 375px;
+        height: 66px;
+    }
+    .footer-bar__text{
+        font-family: "Avenir-light(400)";
+        font-size: 14px;
+        line-height: 19px;
+        color: #373873;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}

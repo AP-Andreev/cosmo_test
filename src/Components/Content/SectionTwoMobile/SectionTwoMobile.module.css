@@ -1,0 +1,115 @@
+.row{
+    display: none;
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.rowPromise{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ECEFFA;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 860px;
+    height: 72px;
+    margin: 0 auto;
+
+}
+.title{
+    font-family: "Avenir-medium(500)";
+    font-size: 22px;
+    line-height: 30px;
+    color: #373873;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.text{
+    font-family: "Avenir-light(300)";
+    font-size: 14px;
+    line-height: 19px;
+    color: #373873;
+    margin: 0 4px;
+}
+
+@media (max-width: 992px){
+    .row{
+        display: block;
+    }
+    .row{
+        margin-bottom: 30px;
+    }
+    .rowPromise{
+        position: relative;
+        max-width: 750px;
+        height: 112px;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        padding-top: 50px;
+        max-width: 750px;
+        height: 72px;
+        margin: 10px auto;
+        background-color: #ECEFFA;
+    }
+    .title{
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .section{
+        padding-top: 40px;
+    }
+    .hour{
+        order: 3;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .text{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 4px;
+    }
+}
+@media (max-width: 767px){
+    .rowPromise{
+        position: relative;
+        max-width: 360px;
+    }
+    .box{
+        max-width: 360px;
+    }
+    .icon{
+        width: 32px;
+        height: 32px;
+        margin: 0 2px;
+    }
+    .text{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 2px;
+    }
+    .five{
+        display: none;
+    }
+}
