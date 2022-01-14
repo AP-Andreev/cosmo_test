@@ -152,9 +152,6 @@
     top: 8px;
     left: 8px;
 }
-
-
-
 @media (max-width: 992px){
     .title{
         max-width: 750px;
@@ -252,8 +249,8 @@
     .preview{
         position: relative;
         background-image:url(../../../Static/Img/fon.png) ;
-        width: 375px;
         height: 220px;
+        overflow: hidden;
     }
     .preview__product{
         width: 130%;

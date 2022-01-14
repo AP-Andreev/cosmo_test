@@ -46,6 +46,7 @@
     flex-direction:column;
     justify-content: center;
     align-self:flex-end;
+    overflow: hidden;
 }
 .day__img{
     margin: 0 -90px;
@@ -93,6 +94,7 @@
         width: 100%;
         max-width: 360px;
         height: 350px;
+        overflow: hidden;
     }
     .day__wrap{
         margin: 0 -5px;
