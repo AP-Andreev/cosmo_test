@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "/cosmo_test/static/css/main.3803b0cb.chunk.css",
-    "main.js": "/cosmo_test/static/js/main.17e4e1b6.chunk.js",
-    "main.js.map": "/cosmo_test/static/js/main.17e4e1b6.chunk.js.map",
-    "runtime-main.js": "/cosmo_test/static/js/runtime-main.772a722f.js",
-    "runtime-main.js.map": "/cosmo_test/static/js/runtime-main.772a722f.js.map",
-    "static/js/2.45c087b9.chunk.js": "/cosmo_test/static/js/2.45c087b9.chunk.js",
-    "static/js/2.45c087b9.chunk.js.map": "/cosmo_test/static/js/2.45c087b9.chunk.js.map",
-    "static/js/3.436d2221.chunk.js": "/cosmo_test/static/js/3.436d2221.chunk.js",
-    "static/js/3.436d2221.chunk.js.map": "/cosmo_test/static/js/3.436d2221.chunk.js.map",
+    "main.css": "/cosmo_test/static/css/main.31e2294f.chunk.css",
+    "main.js": "/cosmo_test/static/js/main.8ef616ac.chunk.js",
+    "main.js.map": "/cosmo_test/static/js/main.8ef616ac.chunk.js.map",
+    "runtime-main.js": "/cosmo_test/static/js/runtime-main.472076e0.js",
+    "runtime-main.js.map": "/cosmo_test/static/js/runtime-main.472076e0.js.map",
+    "static/js/2.2153e8ce.chunk.js": "/cosmo_test/static/js/2.2153e8ce.chunk.js",
+    "static/js/2.2153e8ce.chunk.js.map": "/cosmo_test/static/js/2.2153e8ce.chunk.js.map",
+    "static/js/3.b194cab4.chunk.js": "/cosmo_test/static/js/3.b194cab4.chunk.js",
+    "static/js/3.b194cab4.chunk.js.map": "/cosmo_test/static/js/3.b194cab4.chunk.js.map",
     "index.html": "/cosmo_test/index.html",
-    "static/css/main.3803b0cb.chunk.css.map": "/cosmo_test/static/css/main.3803b0cb.chunk.css.map",
-    "static/js/2.45c087b9.chunk.js.LICENSE.txt": "/cosmo_test/static/js/2.45c087b9.chunk.js.LICENSE.txt",
+    "static/css/main.31e2294f.chunk.css.map": "/cosmo_test/static/css/main.31e2294f.chunk.css.map",
+    "static/js/2.2153e8ce.chunk.js.LICENSE.txt": "/cosmo_test/static/js/2.2153e8ce.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/cosmo_test/static/media/avenirnextcyr.fa5a4060.woff",
     "static/media/SectionSix.module.css": "/cosmo_test/static/media/banner.69838769.png",
     "static/media/box__img1.9e3d0b9e.png": "/cosmo_test/static/media/box__img1.9e3d0b9e.png",
     "static/media/box__img2.e1550877.png": "/cosmo_test/static/media/box__img2.e1550877.png",
     "static/media/box__img3.e35245cb.png": "/cosmo_test/static/media/box__img3.e35245cb.png",
     "static/media/box__img4.8a87e5ac.png": "/cosmo_test/static/media/box__img4.8a87e5ac.png",
-    "static/media/box__img5.76434e09.png": "/cosmo_test/static/media/box__img5.76434e09.png",
-    "static/media/box__img6.0682553d.png": "/cosmo_test/static/media/box__img6.0682553d.png",
-    "static/media/box__img7.26df970d.png": "/cosmo_test/static/media/box__img7.26df970d.png",
-    "static/media/box__img8.c0589ae1.png": "/cosmo_test/static/media/box__img8.c0589ae1.png",
     "static/media/cart.c607246e.svg": "/cosmo_test/static/media/cart.c607246e.svg",
     "static/media/commercial-1.e2a8b07a.png": "/cosmo_test/static/media/commercial-1.e2a8b07a.png",
     "static/media/commercial-2.7e96e57b.png": "/cosmo_test/static/media/commercial-2.7e96e57b.png",
@@ -48,9 +44,9 @@
     "static/media/youtube.59e07249.svg": "/cosmo_test/static/media/youtube.59e07249.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.772a722f.js",
-    "static/js/2.45c087b9.chunk.js",
-    "static/css/main.3803b0cb.chunk.css",
-    "static/js/main.17e4e1b6.chunk.js"
+    "static/js/runtime-main.472076e0.js",
+    "static/js/2.2153e8ce.chunk.js",
+    "static/css/main.31e2294f.chunk.css",
+    "static/js/main.8ef616ac.chunk.js"
   ]
 }
